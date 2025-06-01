@@ -5,22 +5,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Domina la Inteligencia Artificial - Curso Completo 300h</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-    header { background-color: #2c3e50; color: white; padding: 40px 20px; text-align: center; }
-    section { padding: 20px; max-width: 900px; margin: auto; background: white; margin-top: 20px; }
-    h1, h2 { color: #2c3e50; }
-    ul { line-height: 1.8; }
-    .cta { background: #27ae60; color: white; padding: 15px 25px; text-align: center; display: block; margin: 30px auto; width: fit-content; text-decoration: none; border-radius: 5px; }
-    footer { text-align: center; padding: 20px; font-size: 0.9em; color: #999; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.3em;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      animation: slideUp 1.2s ease;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .cta {
+      background: #e67e22;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      display: block;
+      margin: 30px auto;
+      width: fit-content;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .cta:hover {
+      background: #cf711c;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+    }
+    .video-section {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .video-section iframe {
+      max-width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+    .payment-buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .payment-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background-color: #2980b9;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .payment-buttons a:hover {
+      background-color: #1f6391;
+      transform: scale(1.05);
+    }
+    .image-banner {
+      text-align: center;
+      margin: 40px 0;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .image-banner img {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>🚀 Curso Completo de Inteligencia Artificial (300 horas)</h1>
-    <p>Conviértete en un profesional de IA desde cero hasta experto — Aprende, crea, y monetiza</p>
+    <p>La Inteligencia Artificial (IA) no es el futuro... ¡es el presente!</p>
   </header>
 
   <section>
+    <div class="video-section">
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Video de presentación del curso" allowfullscreen></iframe>
+    </div>
+
+    <div class="image-banner">
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Inteligencia Artificial - Robot">
+    </div>
+
     <h2>¿Qué aprenderás?</h2>
     <ul>
       <li>✅ Fundamentos matemáticos y estadísticos para IA</li>
@@ -42,7 +158,11 @@
 
     <h2>💰 Precio especial de lanzamiento</h2>
     <p><strong>Solo US$149</strong> por acceso completo y vitalicio</p>
-    <a href="#" class="cta">¡Inscríbete ahora!</a>
+
+    <div class="payment-buttons">
+      <a href="https://go.hotmart.com/TUENLACEHOTMART" target="_blank">Comprar en Hotmart</a>
+      <a href="https://tuusuario.gumroad.com/l/tu-producto" target="_blank">Comprar en Gumroad</a>
+    </div>
 
     <h2>🔍 Temario por módulos</h2>
     <ul>
@@ -59,7 +179,7 @@
       <li>Módulo 11 (bonus): Monetización</li>
     </ul>
 
-    <a href="#" class="cta">Reserva tu lugar ahora</a>
+    <a href="https://go.hotmart.com/TUENLACEHOTMART" class="cta" target="_blank">Reserva tu lugar ahora</a>
   </section>
 
   <footer>
